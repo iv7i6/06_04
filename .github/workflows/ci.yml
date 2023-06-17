@@ -16,7 +16,7 @@ jobs:
       # 1. Установке зависимостей
       # 2. Сборке проекта
       - name: NMP install
-        uses: install
+        uses: install nmp
       - name: build
         uses: npm run build
       - name: Upload Artifact
